@@ -1,0 +1,20 @@
+version: '2'
+  
+services:
+  db:
+    image: postgres
+    ports:
+      - "5436:5432"
+    environment:
+      - POSTGRES_DB=jogtrack
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=password
+  web:
+    build: .
+    volumes:
+        - .:/docker_dir
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+

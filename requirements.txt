@@ -1,0 +1,6 @@
+Django==2.2
+psycopg2==2.8.5
+djangorestframework==3.11.0
+requests==2.23
+drf-yasg==1.17.1
+django-crontab==0.7.1

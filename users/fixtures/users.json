@@ -1,0 +1,32 @@
+[
+  {
+    "model": "users.user",
+    "pk":1,
+    "fields": {
+      "username": "regular_user",
+      "email": "regular@gmail.com",
+      "role": 1,
+      "password": "RegularPassword1!"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "username": "manager_user",
+      "email": "manager@gmail.com",
+      "role": 2,
+      "password": "ManagerPassword1!"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "username": "admin_user",
+      "email": "admin@gmail.com",
+      "role": 3,
+      "password": "AdminPassword1!"
+    }
+  }
+]
